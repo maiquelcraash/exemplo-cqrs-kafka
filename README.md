@@ -3,7 +3,8 @@ Exemplo com aplicação de CQRS entre Postgres e MongoDB utilizando o **Apache K
  
 ## Como Instalar e Rodar?
 
-1 - Caso você ainda não tenha, instale o [Docker](https://www.docker.com).
+1 - Caso você ainda não tenha, instale o [Docker](https://www.docker.com)
+
 2 - Na pasta raiz do projeto, pelo terminal, execute os seguintes comandos:
 ```bash
   docker-compose build
@@ -12,9 +13,9 @@ Exemplo com aplicação de CQRS entre Postgres e MongoDB utilizando o **Apache K
 **OBS:** Na primeira vez que for utilizar o docker, ele vai solicitar para que você crie uma máquina virtual. Basta você seguir as instruções informadas no terminal.
 **OBS2:** O IP padrão da máquina virtual é **192.168.0.100**. NÃO O ALTERE pois o projeto necessita desse IP para rodar. Tentei configurar via nome do serviço/container, mas não consegui realizar nesse projeto.
 
-4 - Acesse a aplicação pelo seu navegador: http://192.168.99.100/
+3 - Acesse a aplicação pelo seu navegador: http://192.168.99.100/
 
-5 - Caso deseje limpar e resetar os dados, rode o clear_and_build.sh
+4 - Caso deseje limpar e resetar os dados, rode o clear_and_build.sh
 
 ## O que este projeto instala e roda?
  - Aplicação client com React + NginX
